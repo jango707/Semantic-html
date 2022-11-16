@@ -16,5 +16,27 @@ body {
 
 /* general sibling selector */
 .hello li ~ li {
-  color: pink;
+  color: green;
+}
+
+/* simple attribute value */
+[title] {
+  background-color: green;
+}
+
+/* exact attribute vlaue */
+[title="hello-title"] {
+  background-color: rgb(144, 255, 144);
+}
+
+/* partial match / substring*/
+[title*="o"] {
+  color: white;
+}
+
+/* beginning substring: ^= */
+/* ending substring: $= */
+
+[blabla] {
+  color: white;
 }
