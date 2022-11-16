@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: lavender;
+  color: rgb(26, 26, 89);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* parent child selector  */
+.hello > h1 {
+  color: red;
+}
+
+/* general sibling selector */
+.hello li ~ li {
+  color: pink;
+}
