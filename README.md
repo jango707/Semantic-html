@@ -15,7 +15,9 @@ Playing around with some more advanced html and css features
   - matches the element if a sibling is found before the element
 - adjacent sibling selector `.hello li + li {`
 
-- use [] to match attributes
+- use `[]` to match attributes
+
+- you can add text via CSS in using `:: after{ content: ''}` (MINDBLOWN)
 
 ## Resources
 

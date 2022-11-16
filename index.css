@@ -40,3 +40,7 @@ body {
 [blabla] {
   color: white;
 }
+
+a::after {
+  content: " lololol";
+}
