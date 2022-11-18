@@ -1,0 +1,35 @@
+menu,
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+menu button,
+nav a {
+  background-color: aquamarine;
+  border: none;
+  padding: 0.5rem;
+  color: blueviolet;
+}
+menu button:hover,
+nav a:hover {
+  background-color: thistle;
+}
+menu li:first-child button,
+nav li:first-child a {
+  padding-left: 1rem;
+  border-radius: 15px 0 0 15px;
+}
+menu li:last-child button,
+nav li:last-child a {
+  padding-right: 1rem;
+  border-radius: 0 15px 15px 0;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+}
