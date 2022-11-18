@@ -19,6 +19,10 @@ Playing around with some more advanced html and css features
 
 - you can add text via CSS in using `:: after{ content: ''}` (MINDBLOWN)
 
+- access last or first elements with `ul li:first-child { color: seagreen; } ul li:last-child { color: seagreen; }`
+
+- list style properties (MINDBLOWN) `list-style-type: "❤️";`
+
 ## Resources
 
 https://www.htmhell.dev/
