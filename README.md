@@ -23,6 +23,8 @@ Playing around with some more advanced html and css features
 
 - list style properties (MINDBLOWN) `list-style-type: "❤️";`
 
+-`dd { /* TRouBLe */ margin: 0 0 0 0; }`
+
 ## Resources
 
 https://www.htmhell.dev/
