@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.ex {
+  background-color: #e0f9ff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 0 20%;
+  margin: 0;
+}
+
+.ex .content {
+  min-height: 100vh;
+  background-color: #f5fdff;
+  padding: 2% 10%;
+}
+
+.ex h2 {
+  color: #401809;
+}
+
+.ex dl {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.ex dt {
+  font-weight: bold;
+}
+.ex dt::after {
+  content: ":";
+}
+.ex img {
+  border-radius: 5px;
+}
