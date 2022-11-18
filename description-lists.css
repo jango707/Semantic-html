@@ -1,6 +1,6 @@
 div {
-  display: flex;
-  flex-flow: row wrap;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
   border-bottom: 1px solid grey;
   max-width: 400px;
 }
@@ -13,8 +13,18 @@ div:last-child {
 }
 dt {
   font-weight: bold;
+  grid-column-start: 1;
 }
 dd {
   /* TRouBLe */
-  margin: 0 0 0 auto;
+  text-align: center;
+  margin: 0;
+  grid-column-start: 2;
+}
+
+dd:first-of-type {
+  grid-row-start: 1;
+}
+div:nth-child(even) {
+  background-color: rgba(240, 248, 255, 0.327);
 }
