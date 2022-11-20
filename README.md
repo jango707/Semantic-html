@@ -1,6 +1,6 @@
 # Semantic html
 
-Playing around with some more advanced html and css features
+Playing around with some more advanced html and css features.
 
 ## What I learnt
 
