@@ -18,7 +18,7 @@
   padding: 2% 10%;
 }
 
-.ex h2 {
+.ex :where(h2) {
   color: #401809;
 }
 
