@@ -1,5 +1,7 @@
 # Semantic html
 
+Course from FrontendMasters: Intermediate HTML & CSS by Jen Kramer.
+
 Playing around with some more advanced html and css features.
 
 ## What I learnt
@@ -24,6 +26,12 @@ Playing around with some more advanced html and css features.
 - list style properties (MINDBLOWN) `list-style-type: "❤️";`
 
 -`dd { /* TRouBLe */ margin: 0 0 0 0; }`
+
+- use `a:any-link { } ` to style all variants of links
+
+- use `a.classname` to specify all a tags with that classname
+
+- `::first-line` is a thing
 
 ## Resources
 
