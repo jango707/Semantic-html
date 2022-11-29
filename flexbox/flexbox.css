@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: darkcyan;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul {
+  padding: 10px;
+  margin: 5rem auto;
+  list-style-type: none;
+  border: 10px dotted #9b2226;
+  width: 900px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+/* set a border and background color to see each LI. Min-width and min-height are not necessarily a good idea in flexbox, but they are needed for the demo to better see the properties work. */
+li {
+  border: 2px solid #001219;
+  background-color: #ee9800;
+  height: 100px;
+  flex-basis: 25%;
+}
+.flex2 {
+  order: 2;
+  flex-basis: 50%;
+}
